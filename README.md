@@ -1,6 +1,8 @@
 # rag-npc-unity
 RAG-based NPC Demo in Unity 6
 
+[![RAG-based NPC Demo in Unity 6](https://img.youtube.com/vi/PWhPxTbGf1U/0.jpg)](https://www.youtube.com/watch?v=PWhPxTbGf1U)
+
 ## Requirements ##
 - Unity 6000.0.30f1
 - Python 3.10
