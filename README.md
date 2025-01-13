@@ -10,13 +10,16 @@ RAG-based NPC Demo in Unity 6
 
 ## Setup ##
 
-### 1. Setup ChatAvatar environment ###
+### 1. Download Unity Project ###
+- Download [Unity Project](https://drive.google.com/file/d/1BomUEekjo07X1Wc27o8MbEALQN4rb7YY/view?usp=sharing) 
+
+### 2. Setup ChatAvatar environment ###
 - Create an avatar with [ChatAvatar](https://hyper3d.ai/chatavatar)
 - Download the avatar (.zip)
 - Install [Deemos ChatAvatar Import Tool](https://deemos.gumroad.com/l/ChatAvatarImportTool-Unity)
 - In Unity, go to Window > Deemos Import Tool and import the .zip file 
 
-### 2. Setup NeuroSync environment ###
+### 3. Setup NeuroSync environment ###
 - Download a NeuroSync model from [HuggingFace repository](https://huggingface.co/AnimaVR/NEUROSYNC_Audio_To_Face_Blendshape)
 - Copy model.pth to '/Python/utils/model' folder
 - Install packages and run code 
@@ -28,21 +31,21 @@ pip install numpy librosa torch flask
 python neurosync_local_api.py
 ```
 
-### 3. Import TressFX Hair Package ###
+### 4. Import TressFX Hair Package ###
 - Import package from git URL
 - https://github.com/UnityTechnologies/URP-Defender-Character-Demo.git
 
-### 4. Fill API keys and model name info in the APISettings.cs file ###
+### 5. Fill API keys and model name info in the APISettings.cs file ###
 - Open /Assets/Scripts/APISettings.cs
 - Add openAIApiKey, llmModelName, embeddingModelName from [OpenAI API](https://openai.com/index/openai-api)
 - Add elevenLabsApiKey, voiceId from [ElevenLabs API](https://elevenlabs.io/app/settings/api-keys)
 - Add bingAPI from [Bing API](https://portal.azure.com)
 
-### 5. Ingest data ###
+### 6. Ingest data ###
 - Copy text files (.txt) to the Assets/StreamingAssets/text folder.
 - In the VectorDatabaseManager object, click [Generate VectorDatabase] button.
 
-### 6. Run a scene ###
+### 7. Run a scene ###
 - Run /Assets/Scenes/RAG_NPC.unity
 
 ### Open-Source Alternatives ###
