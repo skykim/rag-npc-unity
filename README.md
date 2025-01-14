@@ -1,5 +1,5 @@
 # rag-npc-unity
-RAG-based NPC Demo in Unity 6
+RAG-based NPC Demo in Unity 6 ([Slide](https://drive.google.com/file/d/1yN4T0HcB_Y6Lso8rylqeTYwwHyAZKksL/view?usp=sharing))
 
 [![RAG-based NPC Demo in Unity 6](https://img.youtube.com/vi/PWhPxTbGf1U/0.jpg)](https://www.youtube.com/watch?v=PWhPxTbGf1U)
 
@@ -20,8 +20,10 @@ RAG-based NPC Demo in Unity 6
 - In Unity, go to Window > Deemos Import Tool and import the .zip file 
 
 ### 3. Setup NeuroSync environment ###
+- Clone [NeuroSync_Local_API](https://github.com/AnimaVR/NeuroSync_Local_API) (or clone our repository)
 - Download a NeuroSync model from [HuggingFace repository](https://huggingface.co/AnimaVR/NEUROSYNC_Audio_To_Face_Blendshape)
 - Copy model.pth to '/Python/utils/model' folder
+- Change a port number with 5005 (default: 5000) in neurosync_local_api.py
 - Install packages and run code 
 ```
 conda create -n lipsync python=3.10
