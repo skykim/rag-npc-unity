@@ -44,6 +44,7 @@ python neurosync_local_api.py
 - Add bingAPI from [Bing API](https://portal.azure.com)
 
 ### 6. Ingest data ###
+- Extract text from your documents (.pdf, .txt, .html) and save it as a .txt file.
 - Copy text files (.txt) to the Assets/StreamingAssets/text folder.
 - In the VectorDatabaseManager object, click [Generate VectorDatabase] button.
 
